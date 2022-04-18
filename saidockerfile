@@ -1,6 +1,0 @@
-FROM ubuntu
-WORKDIR /tmp
-RUN echo "hello" > testfile
-ENV myname sai
-COPY testfile1 /tmp
-ADD test.tar.gz .
